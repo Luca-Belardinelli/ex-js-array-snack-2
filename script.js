@@ -110,38 +110,22 @@ authors.sort((a, b) => {
 
 // console.log(authors)
 
+
+
 // Snack 4 - Calcola l’età media
 
 //     Creare un array (ages) che contiene le età degli autori dei libri.
 //     Calcola la somma delle età (agesSum) usando reduce.
 //     Stampa in console l’età media degli autori dei libri.
 
+const ages = books.map(book => book.author.age);
+// console.log(ages)
 
+const agesSum = ages.reduce((acc, age) => {
+    return acc + age;
+}, 0)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(agesSum / ages.length)
 
 // Snack 5 (Bonus) - Raccogli i libri
 // Nota: a differenza di quanto visto finora negli esempi, per accedere all'API utilizzare utilizzare l'url base:
