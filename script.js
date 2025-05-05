@@ -60,7 +60,7 @@ const longBooks = books.filter(book => book.pages > 300);
 const longBooksTitles = longBooks.map(book => book.title)
 // console.log(longBooksTitles);
 
-// longBooksTitles.forEach(book => console.log(book));
+ longBooksTitles.forEach(book => console.log(book));
 
 
 
