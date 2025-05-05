@@ -125,7 +125,7 @@ const agesSum = ages.reduce((acc, age) => {
     return acc + age;
 }, 0)
 
-console.log(agesSum / ages.length)
+// console.log(agesSum / ages.length)
 
 // Snack 5 (Bonus) - Raccogli i libri
 // Nota: a differenza di quanto visto finora negli esempi, per accedere all'API utilizzare utilizzare l'url base:
